@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results - Aayush Tech Company</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">AAYUSH TECH</div>
+        <nav class="nav-menu">
+            <a href="index.html#home">HOME</a>
+            <a href="index.html#shop">SHOP</a>
+            <a href="index.html#why-us">WHY US</a>
+            <a href="index.html#contact">CONTACT US</a>
+        </nav>
+        <div class="header-icons">
+            <a href="login.html"><i class="fas fa-user"></i> Login</a>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button id="searchButton"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <!-- Search Results Section -->
+        <section class="search-results">
+            <h2>SEARCH RESULTS</h2>
+            <div id="resultsContainer" class="product-grid">
+                <!-- Results will be dynamically inserted here -->
+            </div>
+            <div id="noResultsMessage" style="display: none;">
+                <p>No such product found.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- About Us -->
+            <div class="footer-section">
+                <h3>ABOUT US</h3>
+                <p>Aayush Tech Company provides cutting-edge technology solutions at competitive prices. We pride ourselves on quality products and exceptional customer service.</p>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-section">
+                <h3>NEWSLETTER</h3>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+
+            <!-- Need Help -->
+            <div class="footer-section">
+                <h3>NEED HELP</h3>
+                <ul>
+                    <li><a href="index.html#contact">Contact Us</a></li>
+                    <li><a href="index.html#shipping">Shipping Information</a></li>
+                    <li><a href="index.html#returns">Returns & Exchange</a></li>
+                    <li><a href="index.html#payment">Payment Options</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h3>CONTACT US</h3>
+                <p>123 Tech Street, Kathmandu</p>
+                <p>Phone: 9812345678</p>
+                <p>Email: info@aayushtech.com</p>
+            </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="social-media">
+            <a href="#facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#twitter" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>&copy; 2024 Aayush Tech Company. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
